@@ -1,0 +1,59 @@
+/* Your CSS styles here */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lovers Quarrel", cursive;
+  background-color: #de9dee;
+}
+
+* {
+  overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #de9dee;
+}
+
+#root {
+  font-family: "Love Ya Like A Sister", cursive;
+  text-align: center;
+  background-color: #de9dee;
+}
+
+.NoButton {
+  border: none;
+  padding: 5px;
+  border-radius: 7px;
+  padding: 0.5rem 1rem;
+  font-size: 15px;
+  transition: all 0.3s;
+  color: rgb(219, 214, 214);
+  background-color: rgb(95, 0, 150);
+}
+.NoButton:hover {
+  background-color: rgb(253, 5, 100);
+}
+.yesButton {
+  border: none;
+  border-radius: 7px;
+  font-size: 50px;
+  padding: 0.5rem 1rem;
+  background-color: #e2e73a;
+  transition: all 0.3s;
+}
+.yesButton:hover {
+  background-color: #06c100;
+}
+.text {
+  font-family: "Lovers Quarrel", cursive;
+  font-size: 60px;
+  color: yellow;
+  font-weight: 500;
+  margin: 10px;
+  text-align: center;
+}
