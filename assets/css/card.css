@@ -199,6 +199,10 @@ body {
   text-align: center;
 }
 
+.hidden {
+  display: none;
+}
+
 .reset button {
   font-weight: 800;
   font-style: normal;
