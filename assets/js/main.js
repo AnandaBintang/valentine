@@ -1,15 +1,15 @@
 const phrases = [
-  "No 🙉",
-  "Are you sure?",
-  "Really Sure😢",
-  "I'll be very sad😕",
-  "You're my sunshine 💐",
-  "Your smile is my favorite 🥰",
-  "You make my heart skip a beat 💓",
-  "Musling Please🥺",
-  "Don't do this to me🫤",
-  "I'm gonna cry..😭",
-  "You are breaking my heart😭💔",
+  "Nda maw 🙉",
+  "Beneran, dapet lc danang loh?",
+  "Benerannn 😕",
+  "Ih yang benerr 😢",
+  "+ dapet lc aventurine dehh 💐",
+  "plis mau plisss 🥰",
+  "kalo gamaw ilang nih tombolnya 💓",
+  "Beneran ilang nih 🥺",
+  "IHH PLISS AYOOOO MWw 🫤",
+  "kesempatan terakhir sebelum menghilangggg... 😭",
+  "aku akan menghilangg................... 💔",
 ];
 
 let noCount = 0;
@@ -38,6 +38,9 @@ function render() {
     root.innerHTML = `
                     <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" alt="bear-Kissing" />
                     <div class='text'>Yayyy !!!</div>
+                    <a href="./card.html" class='nextButton'>
+                        Eh, ada apa lagi nih? 🤔
+                    </a>
                 `;
   } else {
     if (noCount >= phrases.length) {
@@ -46,7 +49,7 @@ function render() {
                       <div class='text'>Will you be my valentine🌹?</div>
                       <div class='both-Button'>
                           <button class='yesButton' style="font-size: ${yesButtonSize}px" onclick="handleYesClick()">
-                              Yes💓
+                              Ofkors💓
                           </button>
                       </div>
                   `;
@@ -56,7 +59,7 @@ function render() {
                       <div class='text'>Will you be my valentine🌹?</div>
                       <div class='both-Button'>
                           <button class='yesButton' style="font-size: ${yesButtonSize}px" onclick="handleYesClick()">
-                              Yes💓
+                              Ofkors💓
                           </button>
                           <button class='NoButton' onclick="handleNoClick()">
                               ${getNoButtonText()}

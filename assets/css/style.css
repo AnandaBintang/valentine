@@ -8,7 +8,7 @@ body {
 }
 
 * {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .container {
@@ -23,6 +23,18 @@ body {
   font-family: "Love Ya Like A Sister", cursive;
   text-align: center;
   background-color: #de9dee;
+}
+
+.flower {
+  height: 20%;
+  width: 20%;
+  border-radius: 60%;
+}
+
+.kiss {
+  height: 30%;
+  width: 30%;
+  border-radius: 60%;
 }
 
 .NoButton {
@@ -48,6 +60,16 @@ body {
 }
 .yesButton:hover {
   background-color: #06c100;
+}
+.nextButton {
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  border-radius: 7px;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #e2e73a;
+  transition: all 0.3s;
 }
 .text {
   font-family: "Lovers Quarrel", cursive;
