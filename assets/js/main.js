@@ -23,7 +23,8 @@ function handleYesClick() {
 
 function handleNoClick() {
   noCount += 1;
-  yesButtonSize += 20;
+  // increase the button size until full width screen
+  yesButtonSize = Math.min(100, yesButtonSize + 6);
   render();
 }
 
